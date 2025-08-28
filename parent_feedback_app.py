@@ -142,7 +142,7 @@ def build_feedback(
         outstanding_clause,
         nextsteps_clause,
         contact_line,
-        closings.get(tone, closings["Neutral"]),
+        #closings.get(tone, closings["Neutral"]),
         f"— {teacher}" if teacher else "",
     ]
 
